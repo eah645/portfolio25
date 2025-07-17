@@ -1,0 +1,219 @@
+[
+    {  
+      "year": "1",
+      "webImg": "images/Web_Images/first-homepage-image.png",
+      "webTitle": "First Homepage",
+      "webDesc": "First homepage I created using HTML and CSS",
+      "SiteLink": "https://ugbcekqkit-586128449-a.codehs.me/index.html"
+    },
+  {  
+      "year": "1",
+      "webImg": "images/Web_Images/photo-gallery-homepage.png",
+      "webTitle": "Photo Gallery",
+      "webDesc": "Photo gallery with prices and contact options",
+      "SiteLink": "https://ugbcekqkit-586132295-a.codehs.me/index.html"
+    },
+  {  
+      "year": "1",
+      "webImg": "images/Web_images/first-portfolio-image.jpg",
+      "webTitle": "First Portfolio",
+      "webDesc": "First portfolio I made using HTML and CSS",
+      "SiteLink": "https://tp6kc.csb.app/"
+    },
+  {  
+      "year": "1",
+      "webImg": "images/Web_images/xbox-vs-ps4.jpg",
+      "webTitle": "Xbox vs PS4",
+      "webDesc": "Website that compares Xbox and PS4",
+      "bonusDesc": "Collab with Chloe Lee and Griffin ZeidenWeber",
+      "SiteLink": "https://wl2r8.csb.app/"
+    },
+  {  
+      "year": "2",
+      "webImg": "images/Web_Images/dad-joke.jpg",
+      "webTitle": "Dad Jokes",
+      "webDesc": "Website built with JavaScript to tell dad jokes",
+      "SiteLink": "https://y9yrxp.csb.app/"
+    },
+  {  
+      "year": "2",
+      "webImg": "images/Web_Images/spooky-ghost.jpg",
+      "webTitle": "Spooky Ghost",
+      "webDesc": "Website with an animation of a spooky ghost for Halloween 2021",
+      "SiteLink": "https://eah645.github.io/SpookyGhost/"
+    },
+  {  
+      "year": "2",
+      "webImg": "images/Web_Images/quote-image.jpg",
+      "webTitle": "Quote",
+      "webDesc": "Website built based off a quote from Sherlock Holmes",
+      "SiteLink": "https://eah645.github.io/Quote/"
+    },
+  {  
+      "year": "2",
+      "webImg": "images/Web_Images/chocolates.jpg",
+      "webTitle": "Chocolate",
+      "webDesc": "Website built about chocolate and how it's made",
+      "SiteLink": "https://eah645.github.io/Chocolates/"
+    },
+  {  
+      "year": "2",
+      "webImg": "images/Web_Images/random_testimonial.jpg",
+      "webTitle": "Random Testimonial",
+      "webDesc": "Website with random changing statements made using JavaScript",
+      "SiteLink": "https://eah645.github.io/random-testimonial-update/"
+    },
+  {  
+      "year": "2",
+      "webImg": "images/Web_Images/postcard-generator.jpg",
+      "webTitle": "Postcard Generator",
+      "webDesc": "Javascript website made to generate postcards from different states",
+      "SiteLink": "https://eah645.github.io/postcard-generator-update/"
+    },
+  {  
+      "year": "2",
+      "webImg": "images/Web_Images/little-bird-toy-company.jpg",
+      "webTitle": "Little Bird Toy Company",
+      "webDesc": "Website for the Little Bird Toy Company",
+      "bonusDesc": "Collab with Julia Kong",
+      "SiteLink": "https://fn9dy.csb.app/"
+    },
+    {  
+      "year": "2",
+      "webImg": "images/Web_Images/tip-calculator.jpg",
+      "webTitle": "Tip Calculator",
+      "webDesc": "Fully operating tip calculator built using JavaScript",
+      "SiteLink": "https://eah645.github.io/tip-calculator/"
+    },
+    {  
+      "year": "2",
+      "webImg": "images/Web_Images/state-facts.jpg",
+      "webTitle": "State Facts",
+      "webDesc": "Website built with JavaScript to select a state and be given facts on it",
+      "SiteLink": "https://eah645.github.io/state-facts-update/"
+    },
+    {  
+      "year": "2",
+      "webImg": "images/Web_Images/rock-paper-scissors.jpg",
+      "webTitle": "Rock Paper Scissors",
+      "webDesc": "Playable game of rock-paper-scissors made using JavaScript",
+      "SiteLink": "https://eah645.github.io/rockpaperscissors/"
+    },
+  {  
+      "year": "2",
+      "webImg": "images/Web_Images/to-do-list.jpg",
+      "webTitle": "To-Do List",
+      "webDesc": "Allows a user to add or remove items from a to do list, made using JavaScript",
+      "SiteLink": "https://eah645.github.io/To-do-list/"
+    },
+  {  
+      "year": "2",
+      "webImg": "images/Web_Images/katies-komets.jpg",
+      "webTitle": "Katie's Komets",
+      "webDesc": "Website built for the Katie's Komets organization",
+    "bonusDesc": "Collab with Julia Kong",
+      "SiteLink": "https://eah645.github.io/Katies-Komets/index.html"
+    },
+  {  
+      "year": "3",
+      "webImg": "images/Web_Images/DoodleJump.jpg",
+      "webTitle": "Doodle Jump",
+      "webDesc": "Functioning Doodle Jump game built using JavaScript",
+      "SiteLink": "https://doodle-jump.erinh6.repl.co/"
+    },
+  {  
+      "year": "3",
+      "webImg": "images/Web_Images/CountdownToGraduation.jpg",
+      "webTitle": "Countdown to Graduation",
+      "webDesc": "Website built with a working clock counting down to my high school graduation",
+      "SiteLink": "https://tca1-countdown-to-graduation.erinh6.repl.co/"
+    },
+  {  
+      "year": "3",
+      "webImg": "images/Web_Images/CrochetCrew.jpg",
+      "webTitle": "Crochet Crew",
+      "webDesc": "Page built for the Crochet Club at Marlboro High School",
+      "BonusDesc": "Collab with Chloe Lee and Rohan Shivlani",
+      "CreditDesc": "Work done on the page:",
+      "CreditArray": ["Built original header", "Positioned mouse scroll animation and text properly", "Made header and navbar fit view height at different sizes", "Made navbar switch color on click and when scrolling into the next section", "Built tutorials and organization section"],
+      "SiteLink": "https://523chloel.github.io/CrochetCrew/"
+    },
+  {  
+      "year": "3",
+      "webImg": "images/Web_Images/NJIT_2.jpg",
+      "webTitle": "NJIT-2: Slideshow",
+      "webDesc": "NJIT project which has a functioning slideshow showing off art projects",
+      "SiteLink": "https://eah645.github.io/NJIT-2/"
+    },
+    {  
+      "year": "3",
+      "webImg": "images/Web_Images/NJIT_3.jpg",
+      "webTitle": "NJIT-3: IMDB Top Movies",
+      "webDesc": "NJIT project which shows off top movies, different images on click, and interactive ratings",
+      "SiteLink": "https://eah645.github.io/NJIT-3/"
+    },
+    {  
+      "year": "4",
+      "webImg": "images/Web_Images/feelingsquotes.jpg",
+      "webTitle": "Feelings quotes",
+      "webDesc": "Website that consists of motivational quotes and an in-depth analysis on their meaning",
+      "SiteLink": "https://feelingsquotes.com"
+    },
+    {  
+      "year": "4",
+      "webImg": "images/Web_Images/eyeFatigue.jpg",
+      "webTitle": "Eye Fatigue",
+      "webDesc": "Website that provides medical advice on different eye conditions",
+      "SiteLink": "https://eyefatigue.com"
+    },
+    {  
+      "year": "4",
+      "webImg": "images/Web_Images/blueCollarMarketingGroup.jpg",
+      "webTitle": "Blue Collar Marketing Group",
+      "webDesc": "Website I worked on for the Blue Collar Marketing Group",
+      "SiteLink": "https://bluecollarmarketinggroup.com"
+    },
+    {  
+      "year": "5",
+      "webImg": "images/Web_Images/RUDL.png",
+      "webTitle": "The Rutgers Diabetes Link",
+      "webDesc": "Website I built for the Rutgers Diabetes Link",
+      "SiteLink": "https://eah645.github.io/rutgersdiabeteslink/index.html"
+    },
+    {  
+      "year": "5",
+      "webImg": "images/Web_Images/recipeMidterm.jpg",
+      "webTitle": "Recipe App",
+      "webDesc": "Utilizes local storage to allow users to enter recipes and see them when revisiting the page",
+      "SiteLink": "#"
+    },
+    {  
+      "year": "5",
+      "webImg": "images/Web_Images/RUWordle.jpg",
+      "webTitle": "RU Wordle",
+      "webDesc": "Replica of Wordle that chooses a word each day, saves the user's guesses, and provides feedback on each guess",
+      "SiteLink": "#"
+    },
+    {  
+      "year": "5",
+      "webImg": "images/Web_Images/Nintendo_Store_Final.png",
+      "webTitle": "Nintendo Store",
+      "webDesc": "Website I built for the Rutgers Diabetes Link",
+      "SiteLink": "#"
+    },
+    {  
+      "year": "5",
+      "webImg": "images/Web_Images/OIT-Hackathon-S25.png",
+      "webTitle": "OIT Hackathon - Journaling app",
+      "webDesc": "A journaling website that allows users to choose a theme (based around LGBTQ+ identities) and write or read journal entries.",
+      "SiteLink": "https://eah645.github.io/rutgersdiabeteslink/index.html"
+    },
+    {  
+      "year": "5",
+      "webImg": "images/Web_Images/RUDL.png",
+      "webTitle": "[Harvard projects, year 5/6 depending on completion date]",
+      "webDesc": "Website I built for the Rutgers Diabetes Link",
+      "SiteLink": "https://eah645.github.io/rutgersdiabeteslink/index.html"
+    }
+  
+  ]

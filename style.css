@@ -1,0 +1,625 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #040b0f;
+}
+
+/*Homepage*/
+
+/* .not-loading-initial {
+    opacity: 0%;
+    transition: 1s;
+} */
+
+/*Header stuff (Includes the hello, intro text, image, and buttons*/
+header {
+    margin-top: 5vh;
+    margin-right: 50px;
+    margin-left: 50px;
+    height: 80vh;
+}
+
+h1 {
+    font-size: 9vw;
+    color: #E1E6E5;
+    font-family: 'Courier New';
+}
+
+h5 {
+    /*4vh looks good on pc, too big on phone, need to make a new thing*/
+    font-size: 4vh;
+    color: #E1E6E5;
+    font-family: 'Lato';
+    /*Idk if this is applying*/
+    font-style: bold;
+}
+
+h2 {
+    font-size: 5vh;
+    margin: 25px;
+}
+
+.btn-header {
+    display: flex;
+    justify-content: left;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vh;
+}
+
+h3 {
+    color: white;
+    font-family: 'Lato';
+    font-size: 4vh;
+    text-align: center;
+    margin-top: 0;
+    letter-spacing: 8px;
+    transition: 1s;
+}
+
+.break-line {
+    background-color: #0B97D7;
+    margin-left: 0px;
+    margin-right: 0px;
+    min-height: 2px;
+    z-index: 10000px;
+    border: none;
+    transition: 1s;
+}
+
+#header-break-line {
+    width: 75vw;
+    margin-left: 0px;
+    border-color: #556972;
+}
+
+.header-img {
+    display: block;
+    width: 100%;
+    max-height: 50vh;
+    width: auto;
+    margin-top: 30px;
+    /*How do I fucking center align this :)*/
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #556972;
+}
+
+/*Github btn*/
+.bi-github {
+    width: 7vh;
+    height: 7vh;
+}
+
+.header-links-transition {
+    background-color: #556972;
+    color: #E1E6E5;
+    transition: 1s;
+}
+
+.header-links:hover {
+    background-color: #09181F;
+    color: #556972;
+    box-shadow: 10px 5px 5px #E1E6E5;
+    transition: 1s;  
+}
+
+.header-links {
+    background-color: #556972;
+    color: #E1E6E5;
+    padding-left: 20px;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    padding-right: 20px;
+    border-radius: 10px;
+}
+
+.desktop-header {
+    height: 77vh;
+}
+
+.mobile-header {
+    height: 66vh;
+}
+
+.intro-paragraph {
+    margin: 30px;
+    color: #E1E6E5;
+    padding: 20px;
+    font-family: 'Lato';
+    /*See I would keep it like this because looks great on pc- impossible to read on mobile-*/
+    /*I need to get rid of the margin on pc lol*/
+    font-size: 1.75vw;
+}
+
+/*Navbar*/
+.navbar {
+    background-color: #50A5CC;
+    width: 100%;
+}
+
+.navbar .navbar-nav .nav-link {
+    font-size: 2.5vw;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-family: 'Courier New';
+    color: #E1E6E5;
+}
+
+.nav-image {
+    max-height: 11vh;
+    max-width: 11vw;
+}
+
+.nav_active {
+    border: 2px solid #E1E6E5;
+    border-radius: 5px;
+}
+
+
+
+/*Slideshow*/
+#featured_projects {
+    margin-bottom: 75px;
+}
+
+h1 {
+    font-family: "Crimson Text", serif;
+    color: #D9D9D9;
+    font-size: 10vh;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#carouselExampleIndicators {
+    width: 85%;
+    margin: auto;
+    border: 1px solid #D9D9D9;
+    height: 78%;
+}
+
+h2 {
+    font-family: "Crimson Text", serif;
+    color: #D9D9D9;
+    text-align: center;
+    font-size: 7vh;
+}
+
+.featured_title {
+    text-align: center;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    color: #D9D9D9;
+}
+
+.carousel-item {
+    position: relative;
+    min-height: 65vh;
+}
+
+.carousel-item-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 100%;
+}
+
+/*Would like to vertically center this*/
+.carousel-item > .row > img {
+    width: auto;
+    max-width: 45%;
+    max-height: 65vh;
+    margin: auto;
+    margin-left: 20px;
+    /* vertical-align: top; */
+}
+
+.slide_text {
+    position: absolute;
+    display: inline-block;
+    max-width: 50%;
+    margin: 20px;
+    margin-left: 45%;
+    top: 8vh;
+    font-size: 3vh;
+    color: #D9D9D9;
+}
+
+/*Has position: absolute as a default, using negative values to get it under the slideshow*/
+.carousel-indicators {
+    bottom: -50 !important;
+}
+
+.carousel-indicators > button {
+    margin-left: 50px !important;
+    width: 25% !important;
+    height: 10px !important;
+}
+
+
+
+
+
+/*Portfolio json stuff*/
+
+/*Alt background color: #456D80 (does this have more contrast?)*/
+.card {
+    background-color: #556972;
+    /*May need to adjust spacing, it's too close to the right side*/
+    margin: 20px 0px;
+    height: 400px;
+}
+
+.web-card-body {
+    background-color: #556972;
+}
+
+.web-btns {
+    background-color: #09181F;
+    border: 2px solid;
+    border-color: #09181F;
+    margin: 5px;
+    box-shadow: none;
+}
+
+.web-btns-transition {
+    background-color: #09181F;
+    border-color: #09181F;
+    transition: 2s;
+}
+
+.web-btns:hover {
+    background-color: #556972;
+    border: 2px solid;
+    border-color: #E1E6E5;
+    transition: 2s;
+}
+
+/*So... I'd like this to cut across the entire top but it's not working yet...*/
+.card-text {
+    border: 1px solid;
+    border-color: #09181F;
+    color: #09181F;
+    /*Might set some kind of background color? Idk yet*/
+}
+
+/*Card redo*/
+.card_redo {
+    border-radius: 5px;
+    margin-left: 25px;
+}
+
+
+
+
+
+/*Work Exp*/
+
+.section_title {
+    height: 75vh;
+    background-color: #D9D9D9;
+}
+
+.title {
+    color: #09181F;
+    font-size: 5vw;
+    text-align: left;
+    margin-top: 35%;
+}
+
+.school, .skills {
+    border: 2px solid #D9D9D9;
+    margin: 50px;
+    margin-top: 20px;
+}
+
+.work_h3 {
+    padding-top: 20px;
+    letter-spacing: normal;
+    font-size: 2.5vw;
+}
+
+.school > p {
+    text-align: center;
+    color: #D9D9D9;
+    font-size: 1.5vw;
+    /*May want to change this- defaults to serif*/
+    font-family: Galdeano, serif;
+}
+
+.work_ul {
+    width: 95%;
+    list-style: none;
+}
+
+.work_ul > li {
+    color: #D9D9D9;
+    font-size: 1.5vw;
+
+    /*May want to change this- defaults to serif*/
+    font-family: Galdeano, serif;
+}
+
+.skills {
+    display: block;
+    margin-top: 13%;
+}
+
+.skills > div {
+    vertical-align: top;
+    width: 45%;
+    display: inline-block;
+    /* border: 2px solid red; */
+    height: 60%;
+}
+
+.skills > div:first-of-type {
+    border-right: 2px solid #D9D9D9;
+}
+
+.work_btns {
+    text-align: center;
+}
+
+#workDesc > p {
+    text-align: left;
+    margin: 1px;
+}
+
+/*Animation Credit: https://uiverse.io/cssbuttons-io/wonderful-baboon-62*/
+.workBtn {
+    margin: 0.5em;
+    background: #556972;
+    color: white;
+    border: none;
+    border-radius: 0.625em;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    max-width: 400px;
+    padding: 15px;
+}
+
+.workBtn:hover {
+    color: black;
+}
+
+.workBtn-active {
+    background-color: white;
+    color: black;
+}
+
+.workBtn:after {
+    content: "";
+    background: white;
+    position: absolute;
+    z-index: -1;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 0.5s;
+}
+
+.workBtn:hover:after {
+    transform: skewX(-45deg) scale(1, 1);
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+
+
+
+
+/*Contact stuff*/
+.background {
+    background-color: #12353D;
+    /*Ok uh... I want it to be right under the nav like right where the nav starts*/
+}
+
+/*Form on contact, credit: https://uiverse.io/Phelix652/selfish-pug-28*/
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 0.4em;
+    background-color: #171717;
+    border-radius: 20px;
+}
+
+#heading {
+    text-align: center;
+    margin: 0.5em;
+    color: #E1E6E5;
+    font-size: 3em;
+    font-family: 'Courier New';
+    font-style: bold;
+}
+
+.field {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+    border-radius: 25px;
+    padding: 0.6em;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #171717;
+    box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
+}
+
+.contact-note {
+    font-family: 'Lato';
+    font-style: bold;
+    font-size: 1.5em;
+}
+
+.input-icon {
+    height: 1.3em;
+    width: 1.3em;
+    fill: #556972;
+}
+
+.input-field {
+    background: none;
+    border: none;
+    outline: none;
+    width: 100%;
+    color: #556972;
+}
+
+.form .btn {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 2.5em;
+}
+
+.button1 {
+    padding: 0.5em;
+    padding-left: 1.1em;
+    padding-right: 1.1em;
+    border-radius: 5px;
+    margin-right: 0.5em;
+    border: none;
+    outline: none;
+    transition: .4s ease-in-out;
+    background-image: linear-gradient(163deg, #E1E6E5 0%, #556972 100%);
+    color: #09181F;
+}
+
+.button1:hover {
+    background-image: linear-gradient(163deg, #757575 0%, #2e3c42 100%);
+    color: #E1E6E5;
+}
+
+.card-contact {
+    background-image: linear-gradient(163deg, #E1E6E5 0%, #556972 100%);
+    border-radius: 22px;
+    transition: all .3s;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card2 {
+    border-radius: 0;
+    transition: all .2s;
+}
+
+.card2:hover {
+    transform: scale(0.98);
+    border-radius: 20px;
+}
+
+.card-contact:hover {
+    box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);
+}
+
+.overlay-1 {
+    background-color: black;
+    opacity: 90%;
+    max-width: 500px;
+    overflow: hidden;
+    position: relative;
+    /*OK THIS SPECIFICALLY THIS USE THIS FOR CENTERING EVERYTHING IT WORKS*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/*Footer*/
+footer {
+    background-color: #040B0F;
+    color: #E1E6E5;
+    border-top: 2px solid #E1E6E5;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.socials {
+    background-color: #E1E6E5;
+    margin: 20px;
+    height: 50px;
+    width: 50px;
+    padding: 3px;
+    border-radius: 20%;
+    border: 2px solid;
+    color: #556972;
+    transition: 0.5s;
+}
+
+.socials:hover {
+    background-color: #556972;
+    border-color: #E1E6E5;
+    color: #E1E6E5;
+    transition: 0.5s;
+}
+
+.footer-text {
+    font-size: 30px;
+    display: flex;
+    width: 50%;
+    height: 200px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lato';
+}
+
+.new-footer-text {
+    font-family: 'Courier New';
+    letter-spacing: 3px;
+    font-size: 35px;
+    font-style: bold;
+}
+
+/*I want this to be center aligned vertically fix it*/
+.left-footer-text {
+    vertical-align: middle;
+}
+
+.beRound {
+    padding: 10px;
+}
+
+
+
+/*Almost 4am... time to fuck with mobile layout*/
+@media (max-width: 300px) {
+    .desktop-header {
+        display: none;
+    }
+
+    #header-break-line {
+        width: 200%;
+        margin-left: -100px;
+    }
+
+    h1 {
+        margin-bottom: 0;
+        margin-top: 50px;
+        font-weight: 100;
+    }
+
+    /*So help me. Change this it should not be an h5*/
+    h5 {
+        font-weight: 100;
+        margin: 20px;
+        margin-left: -30px;
+        margin-right: -50px;
+    }
+
+    /*And... of course the nav is broken on mobile... why the hell would it actually work*/
+}
