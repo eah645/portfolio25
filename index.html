@@ -21,6 +21,10 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.css"
       rel="stylesheet"
     />
+
+    <!--Animation css (credit: https://animate.style/)-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
     <!-- MDB JS -->
     <script
       type="text/javascript"
@@ -41,6 +45,19 @@
     <title>Portfolio_redo</title>
   </head>
   <body>
+    <!--Loading stuff-->
+    <!--Idk why- this is the best I can do idk why it needs to scroll up to autofocus-->
+    <div style="max-width: 0; max-height: 0; overflow: hidden;">
+        <input autofocus="true" />
+    </div>
+    <div class="loading-initial disable-scrollbar" id="loading">
+        <div class="work testLoadingLogo" id="loadingLogo">
+            <img src="images\Logo2-2.png" alt="Test" class="intoLogo">
+        </div>
+        <hr class="testBreakLine" id="introLine">
+        <!--Ok what the fuck- so once it gets here the class stops applying?-->
+        <h3 id="idText" class="testLoadingText">Erin Hirschberger</h3>
+    </div>
     <!--So just a thought for the intro stuff, should I create the inner stuff with JS?
   That might prevent the scroll issue I had before. Would be... a lot to add through JS- this is a later issue-->
 
@@ -316,5 +333,11 @@
             </div>
         </div>
     </footer>
+
+    <!--JS stuff-->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+            <script src="loading.js"></script>
   </body>
 </html>
