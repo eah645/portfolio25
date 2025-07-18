@@ -293,6 +293,7 @@ h2 {
     top: 8vh;
     font-size: 3vh;
     color: #D9D9D9;
+    font-family: "Lato";
 }
 
 /*Has position: absolute as a default, using negative values to get it under the slideshow*/
