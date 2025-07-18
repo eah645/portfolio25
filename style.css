@@ -128,7 +128,7 @@ h3 {
 }
 
 .break-line {
-    background-color: #0B97D7;
+    background-color: #50A5CC;
     margin-left: 0px;
     margin-right: 0px;
     min-height: 2px;
@@ -610,7 +610,6 @@ h2 {
 /*Footer*/
 footer {
     background-color: #040B0F;
-    color: #E1E6E5;
     border-top: 2px solid #E1E6E5;
     font-size: 20px;
     margin-top: 10px;
@@ -624,12 +623,12 @@ footer {
     padding: 3px;
     border-radius: 20%;
     border: 2px solid;
-    color: #556972;
+    color: #50A5CC;
     transition: 0.5s;
 }
 
 .socials:hover {
-    background-color: #556972;
+    background-color: #50A5CC;
     border-color: #E1E6E5;
     color: #E1E6E5;
     transition: 0.5s;
@@ -644,13 +643,15 @@ footer {
     align-items: center;
     justify-content: center;
     font-family: 'Lato';
+    color: #E1E6E5;
 }
 
 .new-footer-text {
-    font-family: 'Courier New';
-    letter-spacing: 3px;
+    font-family: 'Lato';
+    letter-spacing: 2.25px;
     font-size: 35px;
     font-style: bold;
+    color: #E1E6E5;
 }
 
 /*I want this to be center aligned vertically fix it*/
