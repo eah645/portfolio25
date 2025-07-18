@@ -663,13 +663,16 @@ footer {
 }
 
 
-
-/*Almost 4am... time to fuck with mobile layout*/
-@media (max-width: 300px) {
+@media (max-width: 600px) {
     .desktop-header {
         display: none;
     }
 
+}
+
+
+/*Almost 4am... time to fuck with mobile layout*/
+@media (max-width: 300px) {
     #header-break-line {
         width: 200%;
         margin-left: -100px;
