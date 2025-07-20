@@ -296,6 +296,35 @@ h2 {
     font-family: "Lato";
 }
 
+.slide_text > p {
+    margin-bottom: 50px;
+    line-height: 40px;
+}
+
+.slide_text > a {
+    /*Will need to change at lower screen sizes*/
+    margin-left: 15%;
+    padding-top: 50px;
+    border: 2px solid #E1E6E5;
+    border-radius: 5px;
+    background-color: #556972;
+    width: 150px;
+    color: #E1E6E5;
+    height: 60px;
+    transition: 1s;
+    padding: 15px;
+}
+
+.slide_text > a:hover {
+    background-color: #50A5CC;
+    color: #E1E6E5 !important;
+    transition: 1s;
+}
+
+#Figma_Link {
+    margin-left: 30%;
+}
+
 /*Has position: absolute as a default, using negative values to get it under the slideshow*/
 .carousel-indicators {
     bottom: -50 !important;
