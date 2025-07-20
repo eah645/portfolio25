@@ -343,6 +343,11 @@ h2 {
 
 /*Portfolio json stuff*/
 
+/*Adding margin to fix the issue with the footer. Will be fixed on its own once I redesign the cards*/
+#content {
+    margin-bottom: 120px;
+}
+
 /*Alt background color: #456D80 (does this have more contrast?)*/
 .card {
     background-color: #556972;
@@ -638,7 +643,7 @@ h2 {
 /*Footer*/
 footer {
     background-color: #040B0F;
-    border-top: 2px solid #E1E6E5;
+    border-top: 2px solid #50A5CC;
     font-size: 20px;
     margin-top: 10px;
 }
