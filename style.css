@@ -135,6 +135,7 @@ h3 {
     z-index: 10000px;
     border: none;
     transition: 1s;
+    opacity: 100%;
 }
 
 #header-break-line {
@@ -516,10 +517,6 @@ h2 {
 
 
 /*Contact stuff*/
-.background {
-    background-color: #12353D;
-    /*Ok uh... I want it to be right under the nav like right where the nav starts*/
-}
 
 /*Form on contact, credit: https://uiverse.io/Phelix652/selfish-pug-28*/
 .form {
@@ -560,12 +557,13 @@ h2 {
     font-family: 'Lato';
     font-style: bold;
     font-size: 1.5em;
+    color: #E1E6E5;
 }
 
 .input-icon {
     height: 1.3em;
     width: 1.3em;
-    fill: #556972;
+    fill: #E1E6E5;
 }
 
 .input-field {
@@ -573,7 +571,7 @@ h2 {
     border: none;
     outline: none;
     width: 100%;
-    color: #556972;
+    color: #E1E6E5;
 }
 
 .form .btn {
@@ -592,17 +590,17 @@ h2 {
     border: none;
     outline: none;
     transition: .4s ease-in-out;
-    background-image: linear-gradient(163deg, #E1E6E5 0%, #556972 100%);
+    background-image: linear-gradient(163deg, #E1E6E5 0%, #50A5CC 100%);
     color: #09181F;
 }
 
 .button1:hover {
-    background-image: linear-gradient(163deg, #757575 0%, #2e3c42 100%);
+    background-image: linear-gradient(163deg, #757575 0%, #3b6d82 100%);
     color: #E1E6E5;
 }
 
 .card-contact {
-    background-image: linear-gradient(163deg, #E1E6E5 0%, #556972 100%);
+    background-image: linear-gradient(163deg, #E1E6E5 0%, #50A5CC 100%);
     border-radius: 22px;
     transition: all .3s;
     margin-top: 20px;
