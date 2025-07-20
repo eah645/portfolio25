@@ -174,9 +174,9 @@
     <h2>Work Experience</h2>
     <div class="row">
       <div class="col-md-5 work_btns">
-        <button class="workBtn">Rutgers University Office of Information and Technology</button>
-        <button class="workBtn">F&T Group</button>
-        <button class="workBtn">Blue Collar Marketing Group</button>
+        <button class="workBtn" id="OIT" onclick="workBtnOIT()">Rutgers University Office of Information and Technology</button>
+        <button class="workBtn" id="FT" onclick="workBtnFT()">F&T Group</button>
+        <button class="workBtn" id="BCMG" onclick="workBtnBCMG()">Blue Collar Marketing Group</button>
       </div>
       <div class="col-md-6 school" id="workDesc">
         <!--OIT Info:
@@ -187,13 +187,9 @@
           Solved problems involving connecting to Wi-Fi and Two-Factor Authentication.-->
 
         <!--F&T Group-->
-        <p>Position: Intern for a Day</p>
-        <p>Date Worked: April 2025</p>
-        <p>
-          Desc: Helped Rutgers staff and students solve technical problems as they came up. 
-          Communicated with users over the phone, in-person, and through emails. 
-          Solved problems involving connecting to Wi-Fi and Two-Factor Authentication.
-        </p>
+        <p id="position">Position:</p>
+        <p id="date">Date Worked:</p>
+        <p id="description">Description:</p>
       </div>
     </div>
   </div>
@@ -269,4 +265,9 @@
         </div>
     </div>
 </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </body>

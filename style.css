@@ -464,7 +464,9 @@ h2 {
 }
 
 .work_btns {
+    /*Would like font to be lighter, not working rn*/
     text-align: center;
+    font-family: "Lato";
 }
 
 #workDesc > p {
@@ -475,7 +477,7 @@ h2 {
 /*Animation Credit: https://uiverse.io/cssbuttons-io/wonderful-baboon-62*/
 .workBtn {
     margin: 0.5em;
-    background: #556972;
+    background: #50A5CC;
     color: white;
     border: none;
     border-radius: 0.625em;
