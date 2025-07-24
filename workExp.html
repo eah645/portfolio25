@@ -157,6 +157,8 @@
     <div class="col-md-4 section_title">
         <h2 class="title">Educational 
             <br>History</h2>
+        <!--Added because I can't change the br without JS-->
+        <h2 class="title mobile-title">Educational History</h2>
     </div>
     <div class="col-md-7 school">
         <h3 class="work_h3">Rutgers University</h3>
@@ -173,12 +175,12 @@
   <div>
     <h2>Work Experience</h2>
     <div class="row">
-      <div class="col-md-5 work_btns">
+      <div class="col-lg-5 col-md-12 work_btns">
         <button class="workBtn" id="OIT" onclick="workBtnOIT()">Rutgers University Office of Information and Technology</button>
         <button class="workBtn" id="FT" onclick="workBtnFT()">F&T Group</button>
         <button class="workBtn" id="BCMG" onclick="workBtnBCMG()">Blue Collar Marketing Group</button>
       </div>
-      <div class="col-md-6 school" id="workDesc">
+      <div class="col-lg-6 col md-12 school" id="workDesc">
         <!--OIT Info:
           Position: Level 2 Help Desk Consultant
           Date Worked: August 2025 - Current
@@ -197,6 +199,9 @@
 
   <!--Technical Skills-->
   <div class="row">
+    <div class="col-md-4 section_title mobile-title">
+        <h2 class="title mobile-title">Technical Skills</h2>
+    </div>
     <div class="col-md-7">
         <div class="skills">
             <div>
@@ -221,7 +226,7 @@
             </div>
         </div>
     </div>
-    <div class="col-md-4 section_title offset-md-1">
+    <div class="col-md-4 section_title offset-md-1" id="technical_desktop">
         <h2 class="title">Technical 
             <br>Skills</h2>
     </div>
