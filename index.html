@@ -56,7 +56,7 @@
         </div>
         <hr class="testBreakLine" id="introLine">
         <!--Ok what the fuck- so once it gets here the class stops applying?-->
-        <h3 id="idText" class="testLoadingText">Erin Hirschberger</h3>
+        <h1 id="idText" class="testLoadingText">Erin Hirschberger</h1>
     </div>
     <!--So just a thought for the intro stuff, should I create the inner stuff with JS?
   That might prevent the scroll issue I had before. Would be... a lot to add through JS- this is a later issue-->
@@ -66,13 +66,12 @@
         <!--Do I fucking rebuild this so the display on mobile is different? Yup-->
         <div class="row desktop-header d-lg-inline-flex d-md-inline-flex d-sm-none">
           <div class="col-md-8">
-            <h1>Hello</h1>
+            <h2 id="homepage_hello">Hello</h2>
             <hr class="break-line" />
-            <!--Why the hell is this h5???-->
-            <h5>
+            <p id="homepage_desc">
               I'm Erin, a junior in college working to 
               advance my knowledge in web design and development
-            </h5>
+            </p>
             <!--Need to figure out how to make these responsive-->
             <div class="btn-header">
               <a
@@ -102,12 +101,12 @@
         </div>
         <!--Alright here this is the mobile only header-->
         <div class="mobile-header d-lg-none d-md-none d-sm-block">
-          <h1>Hello</h1>
+          <h2 id="homepage_hello">Hello</h2>
           <hr id="header-break-line" />
-          <h5>
+          <p id="homepage_desc">
             I'm Erin, a junior in college working to 
-              advance my knowledge in web design and development
-          </h5>
+            advance my knowledge in web design and development
+          </p>
           <div class="btn-header">
             <a
               href="https://github.com/eah645"
@@ -302,6 +301,21 @@
       </div>
     </div>
 
+
+
+    <!--Committment to Accessibility-->
+    <div class="border" id="accessibilityBox">
+      <!--Desktop screen layout-->
+      <div class="row desktop-header d-lg-inline-flex d-md-inline-flex d-sm-none">
+        <div class="col-md-10">
+          <h2>Committment to Accessibility</h2>
+          <p>Filler text on why accessibility is important, summarize from full statement</p>
+        </div>
+        <div class="col-md-2">
+          <button>Accessibility Statement</button>
+        </div>
+      </div>
+    </div>
 
 
       <!--Footer-->
