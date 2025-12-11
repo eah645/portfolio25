@@ -83,7 +83,7 @@ h1 {
 }
 
 .testBreakLine {
-    background-color: #556972;
+    background-color: #284351;
     margin-left: 0px;
     margin-right: 0px;
     min-height: 2px;
@@ -134,7 +134,7 @@ h2 {
 }
 
 .break-line {
-    background-color: #50A5CC;
+    background-color: #008AC9;
     margin-left: 0px;
     margin-right: 0px;
     min-height: 2px;
@@ -147,7 +147,7 @@ h2 {
 #header-break-line {
     width: 75vw;
     margin-left: 0px;
-    border-color: #556972;
+    border-color: #284351;
 }
 
 .header-img {
@@ -159,7 +159,7 @@ h2 {
     /*How do I fucking center align this :)*/
     margin-left: auto;
     margin-right: auto;
-    border: 2px solid #556972;
+    border: 2px solid #284351;
 }
 
 /*Github btn*/
@@ -169,20 +169,20 @@ h2 {
 }
 
 .header-links-transition {
-    background-color: #556972;
+    background-color: #284351;
     color: #E1E6E5;
     transition: 1s;
 }
 
 .header-links:hover {
     background-color: #09181F;
-    color: #556972;
+    color: #284351;
     box-shadow: 10px 5px 5px #E1E6E5;
     transition: 1s;  
 }
 
 .header-links {
-    background-color: #556972;
+    background-color: #284351;
     color: #E1E6E5;
     padding-left: 20px;
     padding-top: 1vh;
@@ -211,7 +211,7 @@ h2 {
 
 /*Navbar*/
 .navbar {
-    background-color: #50A5CC;
+    background-color: #008AC9;
     width: 100%;
 }
 
@@ -316,7 +316,7 @@ h2 {
     padding-top: 50px;
     border: 2px solid #E1E6E5;
     border-radius: 5px;
-    background-color: #556972;
+    background-color: #284351;
     width: 150px;
     color: #E1E6E5;
     height: 60px;
@@ -326,7 +326,7 @@ h2 {
 }
 
 .slide_text > a:hover {
-    background-color: #50A5CC;
+    background-color: #008AC9;
     color: #E1E6E5 !important;
     transition: 1s;
 }
@@ -367,7 +367,7 @@ h2 {
 #accBtn {
     border: 2px solid #E1E6E5;
     border-radius: 5px;
-    background-color: #556972;
+    background-color: #284351;
     transition: 1s;
     padding: 15px;
     z-index: 1000000;
@@ -383,7 +383,7 @@ h2 {
 }
 
 #accBtn:hover {
-    background-color: #50A5CC;
+    background-color: #008AC9;
     color: #E1E6E5 !important;
     transition: 1s;
 }
@@ -405,14 +405,14 @@ h2 {
 
 /*Alt background color: #456D80 (does this have more contrast?)*/
 .card {
-    background-color: #556972;
+    background-color: #284351;
     /*May need to adjust spacing, it's too close to the right side*/
     margin: 20px 0px;
     height: 400px;
 }
 
 .web-card-body {
-    background-color: #556972;
+    background-color: #284351;
 }
 
 .web-btns {
@@ -430,7 +430,7 @@ h2 {
 }
 
 .web-btns:hover {
-    background-color: #556972;
+    background-color: #284351;
     border: 2px solid;
     border-color: #E1E6E5;
     transition: 2s;
@@ -536,7 +536,7 @@ h2 {
 /*Animation Credit: https://uiverse.io/cssbuttons-io/wonderful-baboon-62*/
 .workBtn {
     margin: 0.5em;
-    background: #50A5CC;
+    background: #008AC9;
     color: white;
     border: none;
     border-radius: 0.625em;
@@ -656,17 +656,17 @@ h2 {
     border: none;
     outline: none;
     transition: .4s ease-in-out;
-    background-image: linear-gradient(163deg, #E1E6E5 0%, #50A5CC 100%);
+    background-image: linear-gradient(163deg, #E1E6E5 0%, #008AC9 100%);
     color: #09181F;
 }
 
 .button1:hover {
-    background-image: linear-gradient(163deg, #757575 0%, #3b6d82 100%);
+    background-image: linear-gradient(163deg, #757575 0%, #008AC9 100%);
     color: #E1E6E5;
 }
 
 .card-contact {
-    background-image: linear-gradient(163deg, #E1E6E5 0%, #50A5CC 100%);
+    background-image: linear-gradient(163deg, #E1E6E5 0%, #008AC9 100%);
     border-radius: 22px;
     transition: all .3s;
     margin-top: 20px;
@@ -704,7 +704,7 @@ h2 {
 /*Footer*/
 footer {
     background-color: #040B0F;
-    border-top: 2px solid #50A5CC;
+    border-top: 2px solid #008AC9;
     font-size: 20px;
     margin-top: 10px;
 }
@@ -722,7 +722,7 @@ footer {
 }
 
 .socials:hover {
-    background-color: #50A5CC;
+    background-color: #008AC9;
     border-color: #E1E6E5;
     color: #E1E6E5;
     transition: 0.5s;
@@ -803,7 +803,7 @@ footer {
         margin-right: auto;
     }
     .header-links {
-    background-color: #50A5CC;
+    background-color: #008AC9;
     color: #E1E6E5;
     padding: 10px;
     padding-left: 20px;
