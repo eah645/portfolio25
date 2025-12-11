@@ -159,7 +159,7 @@ h2 {
     /*How do I fucking center align this :)*/
     margin-left: auto;
     margin-right: auto;
-    border: 2px solid #284351;
+    border: 2px solid #008AC9;
 }
 
 /*Github btn*/
@@ -168,18 +168,18 @@ h2 {
     height: 7vh;
 }
 
-.header-links-transition {
+/* .header-links-transition {
     background-color: #284351;
     color: #E1E6E5;
     transition: 1s;
-}
+} */
 
-.header-links:hover {
+/* .header-links:hover {
     background-color: #09181F;
     color: #284351;
     box-shadow: 10px 5px 5px #E1E6E5;
     transition: 1s;  
-}
+} */
 
 .header-links {
     background-color: #284351;
@@ -189,6 +189,13 @@ h2 {
     padding-bottom: 1vh;
     padding-right: 20px;
     border-radius: 10px;
+    transition: 1s;
+}
+
+.header-links:hover {
+    background-color: #008AC9;
+    transition: 1s;
+    color: #E1E6E5;
 }
 
 .desktop-header {
