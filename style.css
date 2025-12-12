@@ -120,11 +120,6 @@ header {
     font-style: bold;
 }
 
-h2 {
-    font-size: 5vh;
-    margin: 25px;
-}
-
 .btn-header {
     display: flex;
     justify-content: left;
@@ -269,6 +264,7 @@ h2 {
     color: #E1E6E5;
     text-align: center;
     font-size: 7vh;
+    margin: 25px;
 }
 
 .featured_title {
@@ -381,9 +377,6 @@ h2 {
     width: 100%;
     height: auto;
     white-space: normal;
-}
-
-#accBtn > a {
     color: #E1E6E5;
     font-family: "Lato";
     font-size: 3vh;
@@ -410,6 +403,11 @@ h2 {
     margin-bottom: 120px;
 }
 
+/*Work on this, trying to figure out how to fix the spacing issue between cards*/
+#content > div.row > div > div {
+    max-height: 400px;
+}
+
 /*Alt background color: #456D80 (does this have more contrast?)*/
 .card {
     background-color: #284351;
@@ -423,16 +421,11 @@ h2 {
 }
 
 .web-btns {
-    background-color: #09181F;
+    background-color: #040B0F;
     border: 2px solid;
-    border-color: #09181F;
+    border-color: #040B0F;
     margin: 5px;
     box-shadow: none;
-}
-
-.web-btns-transition {
-    background-color: #09181F;
-    border-color: #09181F;
     transition: 2s;
 }
 
@@ -446,9 +439,11 @@ h2 {
 /*So... I'd like this to cut across the entire top but it's not working yet...*/
 .card-text {
     border: 1px solid;
-    border-color: #09181F;
-    color: #09181F;
-    /*Might set some kind of background color? Idk yet*/
+    border-radius: 5px;
+    padding: 10px;
+    color: #E1E6E5;
+    background-color: #040B0F;
+    font-family: "Lato", sans-serif;
 }
 
 /*Card redo*/
