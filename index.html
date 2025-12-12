@@ -63,6 +63,7 @@
   That might prevent the scroll issue I had before. Would be... a lot to add through JS- this is a later issue-->
 
     <div class="not-loading-initial" id="not-loading">
+      <a href="#mainContentID" id="hidden-skip">Skip to main content</a>
       <header>
         <!--Do I fucking rebuild this so the display on mobile is different? Yup-->
         <div class="row desktop-header d-lg-inline-flex d-md-inline-flex d-sm-none">
@@ -162,7 +163,8 @@
 
 
     <!--Intro paragraph-->
-    <div class="container-fluid">
+    <!--Users will land here if choosing to skip to main content-->
+    <div class="container-fluid" id="mainContentID">
       <!--paragraph-->
       <div class="row intro-paragraph border">
           <div class="col-md-4">

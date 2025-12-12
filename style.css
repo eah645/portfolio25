@@ -93,6 +93,23 @@ h1 {
     transition: 1s;
 }
 
+/*Skip to main content*/
+#hidden-skip {
+    position: absolute;
+    top: auto;
+    left: -999px;
+    width: 1px;
+    height: 1px;
+    color: #008AC9;
+}
+
+#hidden-skip:focus {
+    position: static;
+    width: auto;
+    height: auto;
+    left: auto;
+}
+
 /*Header stuff (Includes the hello, intro text, image, and buttons*/
 header {
     margin-top: 5vh;
@@ -403,7 +420,7 @@ h2 {
     margin-bottom: 120px;
 }
 
-/*Work on this, trying to figure out how to fix the spacing issue between cards*/
+/*Work on this, trying to figure out how to fix the spacing issue between rows*/
 #content > div.row > div > div {
     max-height: 400px;
 }
