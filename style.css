@@ -153,13 +153,17 @@ header {
     z-index: 10000px;
     border: none;
     transition: 1s;
+    width: 200%; /*Added to increase width over right side*/
     opacity: 100%;
 }
 
 #header-break-line {
-    width: 75vw;
+    width: auto;
+    min-height: 2px;
+    opacity: 100%;
     margin-left: 0px;
-    border-color: #284351;
+    background-color: #008AC9;
+    border-color: #008AC9;
 }
 
 .header-img {
