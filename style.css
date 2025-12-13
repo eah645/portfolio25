@@ -401,6 +401,9 @@ h2 {
     color: #E1E6E5;
     font-family: "Lato";
     font-size: 3vh;
+    /*Added last 2 for a tag instead of button*/
+    word-wrap: break-word;
+    text-align: center;
 }
 
 #accBtn:hover {
@@ -414,6 +417,25 @@ h2 {
     padding-left: 5%;
 }
 
+
+
+/*Accessibility Page*/
+#accessibilityHeader {
+    margin-top: 20px;
+    font-size: 7vh;
+}
+
+.acch2 {
+    text-align: left;
+    font-size: 5.5vh;
+}
+
+.accp {
+    color: #E1E6E5;
+    margin-left: 30px;
+    font-size: 2.75vh;
+    font-family: "Lato";
+}
 
 
 
