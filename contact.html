@@ -147,7 +147,7 @@
                 <div class="card2 contact-card">
                     <!--Actual form to reach-->
                     <form class="form" action="https://formspree.io/f/xnqynpjd" method="POST">
-                        <p id="heading">Reach out!</p>
+                        <h1 id="contact-header">Reach out!</h1>
                         <hr class="break-line">
                         <!--Paragraph / note text-->
                         <!--I am not forgetting this idea- If I have time and can figure out make it when you scroll to this the note paragraph opens-->
@@ -162,7 +162,8 @@
                                     d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
                             </svg>
                             <input type="text" class="input-field" placeholder="Name" autocomplete="off"
-                                name="name">
+                                name="name"
+                                aria-label="name">
                         </div>
                         <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope input-icon"
@@ -170,14 +171,16 @@
                                 <path
                                     d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
                             </svg>
-                            <input type="text" class="input-field" placeholder="Email" autocomplete="off" name="email">
+                            <input type="text" class="input-field" placeholder="Email" autocomplete="off" name="email"
+                            aria-label="email">
                         </div>
                         <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-credit-card-2-front-fill input-icon" viewBox="0 0 16 16">
                                 <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2.5 1a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h2a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-2zm0 3a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5zm0 2a.5.5 0 0 0 0 1h1a.5.5 0 0 0 0-1h-1zm3 0a.5.5 0 0 0 0 1h1a.5.5 0 0 0 0-1h-1zm3 0a.5.5 0 0 0 0 1h1a.5.5 0 0 0 0-1h-1zm3 0a.5.5 0 0 0 0 1h1a.5.5 0 0 0 0-1h-1z"/>
                               </svg>
                               <textarea type="text" class="input-field contact-text" placeholder="Message" autocomplete="off"
-                              name="message"></textarea>
+                              name="message"
+                              aria-label="message"></textarea>
                         </div>
                         <div class="btn">
                             <button

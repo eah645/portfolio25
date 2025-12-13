@@ -646,15 +646,6 @@ h2 {
     border-radius: 20px;
 }
 
-#heading {
-    text-align: center;
-    margin: 0.5em;
-    color: #E1E6E5;
-    font-size: 3em;
-    font-family: 'Courier New';
-    font-style: bold;
-}
-
 .field {
     display: flex;
     align-items: center;
@@ -667,6 +658,12 @@ h2 {
     color: white;
     background-color: #171717;
     box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
+}
+
+#contact-header {
+    margin-top: 20px;
+    letter-spacing: 2px;
+    font-size: 2.5em;
 }
 
 .contact-note {
