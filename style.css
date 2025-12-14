@@ -889,6 +889,19 @@ footer {
     }
 }
 
+@media (max-width: 800px) {
+    /*Loading animation on mobile*/
+    .intoLogo {
+        height: auto;
+        max-height: 35%;
+        width: auto;
+    }
+    
+    #idText {
+        font-size: 5vw;
+    }
+}
+
 /*When nav collapses*/
 @media (max-width: 992px) {
     .nav-image {

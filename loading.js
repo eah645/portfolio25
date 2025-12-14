@@ -1,5 +1,8 @@
 //Defining functions I'm gonna use... I think what I'll do is just fuck around with adding classes with different opacities so I get a makeshift fade in effect if animate.css doesn't work
 
+
+//Original numbers (for inverse functs): 3800, 4800, 5000, load the page was 6000
+//Changed to last 5 seconds for accessibility
 document.onreadystatechange = function () {
     letsStart();
     $(this).scrollTop(0);
@@ -8,11 +11,11 @@ document.onreadystatechange = function () {
     const my2Timeout = setTimeout(loadingLine, 1300);
     const myTimeout = setTimeout(loadingText, 1500);
     //Inverse functions:
-    const timeout2 = setTimeout(inverseLoadingLogo, 3800);
-    const timeout3 = setTimeout(inverseLoadingText, 4800);
-    const timeout4 = setTimeout(inverseLoadingLine, 5000);
+    const timeout2 = setTimeout(inverseLoadingLogo, 5800);
+    const timeout3 = setTimeout(inverseLoadingText, 6800);
+    const timeout4 = setTimeout(inverseLoadingLine, 7000);
 
-    const timeout5 = setTimeout(loadThePage, 6000);
+    const timeout5 = setTimeout(loadThePage, 8000);
 
     //Do a set interval in here
     //So for the set intervel... it looks like it works by calling the function and adding a timer so let's
