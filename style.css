@@ -267,7 +267,7 @@ header > div > div > .break-line {
     margin-bottom: 75px;
 }
 
-h3 {
+h3, .card-title {
     color: white;
     font-family: 'Lato';
     font-size: 4vh;
@@ -284,7 +284,7 @@ h3 {
     height: 78%;
 }
 
-h2 {
+h2, #portfolio-header {
     font-family: "Crimson Text", serif;
     color: #E1E6E5;
     text-align: center;
@@ -505,6 +505,10 @@ h2 {
 
 
 /*Work Exp*/
+
+.h1-hidden {
+    display: none;
+}
 
 .section_title {
     height: 75vh;
