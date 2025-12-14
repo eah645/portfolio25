@@ -9,7 +9,7 @@ body {
 
 /*For tabbing to any button or link*/
 a:focus, button:focus {
-    border: 2px solid red;
+    border: 2px dotted black;
 }
 
 /*Homepage*/
